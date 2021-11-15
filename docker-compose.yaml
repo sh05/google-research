@@ -1,0 +1,7 @@
+version: "3.3"
+services:
+  go_emotions:
+    build: goemotions
+    volumes:
+      - ./goemotions/:/goemotions
+    working_dir: /goemotions
